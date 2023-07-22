@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Currency Convertor</title>
+  </head>
+  <body>
+    <h1>Currency Convertor</h1>
+    <div class="container">
+      <form action="#">
+        <div class="amount">
+          <p>Amount</p>
+          <input type="text" value="1" placeholder="Enter the amount" />
+        </div>
+        <br />
+        <div class="FromToContainer">
+          <div class="from">
+            <p>Form</p>
+            <div class="selectBox">
+              <select>
+                <option value="INR">India (INR)</option>
+                <option selected value="USD">United State (USD)</option>
+                <option value="AFN">Afganistan (AFN)</option>
+                <option value="CNY">China (CNY)</option>
+                <option value="ARS">Argentina (ARS)</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <div class="to">
+            <p>To</p>
+            <div class="selectBox">
+              <select>
+                <option selected value="INR">India (INR)</option>
+                <option value="USD">United State (USD)</option>
+                <option value="AFN">Afganistan (AFN)</option>
+                <option value="CNY">China (CNY)</option>
+                <option value="ARS">Argentina (ARS)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="convertedAmount">Click on "Convert Currency" Button</div>
+        <br />
+        <button class="convertBtn btn-sm">Convert Currency</button>
+      </form>
+    </div>
+    <!-- JS -->
+    <script src="index.js"></script>
+  </body>
+</html>
